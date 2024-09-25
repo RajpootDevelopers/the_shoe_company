@@ -1,0 +1,18 @@
+{
+  "name": "the_show_company",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+    "tailwind-minify": "npx tailwindcss -i ./input.css -o ./output.css --watch --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.13"
+  }
+}
